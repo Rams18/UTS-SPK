@@ -17,7 +17,7 @@ get susu list
 <img src='img/Get_Susu.png' alt='susu list'/>
 
 get recommendations saw
-<img src='img/Post_Saw.png' alt='recommendations saw'/>
+<img src='img/Post_saw.png' alt='recommendations saw'/>
 
 get recommendations wp
 <img src='img/Post_Wp.png' alt='recommendations wp'/>
@@ -27,17 +27,17 @@ Implementasikan model yang sudah anda buat ke dalam web api dengan http method `
 
 INPUT:
 {
-    "harga": 5, 
-    "kualitas_kamera": 5, 
-    "kapasitas_baterai": 5, 
-    "kinerja": 5, 
-    "ukuran_layar": 5
+    "harga": 4, 
+    "kalori": 3, 
+    "protein": 4, 
+    "lemak": 6, 
+    "ukuran": 3
 }
 
 OUTPUT (diurutkan / sort dari yang terbesar ke yang terkecil):
 
 post recommendations saw
-<img src='img/Post_Saw.png' alt='recommendations saw'/>
+<img src='img/Post_saw.png' alt='recommendations saw'/>
 
 post recommendations wp
 <img src='img/Post_Wp.png' alt='recommendations wp'/>
